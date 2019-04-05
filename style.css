@@ -37,6 +37,10 @@ body
 #bloc3 {
 	background-color: ;
 }
+#bloc4 {
+
+	background-color: ;
+}
 
 .clavier1
 {
@@ -45,10 +49,6 @@ body
 	justify-content: space-around;
 }
 
-#bloc4 {
-
-	background-color: blue;
-}
 #calgauche
 {
 	width: 15%;
@@ -62,24 +62,26 @@ h1 {
 	text-align: center;
 
 }
+p
+{
+	text-align: center;
+}
 .button
 {
 	background-image: linear-gradient(to top right,green,yellow,white);
 	width: 15%;
 	height: 8%;
-
+	 transition-property:background-image;
+	 transition-duration:5s;
+}
+.button:hover
+{
+	background-image: linear-gradient(to top left,purple,red,yellow);
+	width: 25%;
+	height: 15%;
 }
 .space
 {
-	width: 2%;
-	height: 2%;
+	height: 7%;
 }
-.space2
-{
-	width:20%;
-	height: 4%;
-}
-.spaceM
-{
-	width: 10%;
-}
+
