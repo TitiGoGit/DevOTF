@@ -1,3 +1,47 @@
+h1 /* ici les gros titres */
+{
+	text-align: center ;
+	text-color: silver ;
+
+}
+
+
+p /* ici c'est le texte*/
+{
+	text-align: center ;
+	text-shadow: 5px 5px 2px white ;
+}
+
+.button /* ici c'est les bouton du menu*/
+{
+	background-image: linear-gradient(to top right,green,yellow,white) ;
+	border-radius:15px ;
+	width: 15% ;
+	height: 8% ;
+	
+	 
+}
+.button:hover /* ici les boutons du menu trandformé*/
+{
+	background-image: linear-gradient(to top left,purple,red,yellow);
+	width: 25% ;
+	height: 15% ;
+	text-color: white ;
+	-moz-transition-duration:5s ;
+	-moz-transition-property:background-image, widht,height ;
+
+}
+
+#bloc2 /* ici le paragraphe de la présentation*/
+{
+	background-color: ;
+	border: 0.5em ridge silver ;
+	border-radius: 45px;
+	
+}
+/* ------------------------------------------------------------------------------*/
+
+
 #page {
 	display: flex;
 	flex-direction: rew;
@@ -8,10 +52,10 @@
 body
 
 {
-    	background-image:linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+    	background-image:linear-gradient(to left,rgba(118, 108, 106,0), rgba(65, 61, 60)),/*(rgba(255, 255, 0, 0.5), rgba(0, 0, 255, 0.5))*/
 	url("laser.jpg");
 	background-position: center;
-	background-size: contain, 50%;
+	background-size: contain, 40%;
 	
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -31,9 +75,7 @@ body
 	background-color: red;
 
 }
-#bloc2 {
-	background-color: yellow;
-}
+
 #bloc3 {
 	background-color: ;
 }
@@ -58,28 +100,9 @@ body
 	width: 15%;
 }
 
-h1 {
-	text-align: center;
 
-}
-p
-{
-	text-align: center;
-}
-.button
-{
-	background-image: linear-gradient(to top right,green,yellow,white);
-	width: 15%;
-	height: 8%;
-	 transition-property:background-image;
-	 transition-duration:5s;
-}
-.button:hover
-{
-	background-image: linear-gradient(to top left,purple,red,yellow);
-	width: 25%;
-	height: 15%;
-}
+
+
 .space
 {
 	height: 7%;
