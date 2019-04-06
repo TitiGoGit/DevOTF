@@ -12,7 +12,7 @@ p /* ici c'est le texte*/
 	text-shadow: 5px 5px 2px white ;
 }
 
-.button /* ici c'est les bouton du menu*/
+.button /* ici c'est les boutons du menu*/
 {
 	background-image: linear-gradient(to top right,green,yellow,white) ;
 	border-radius:15px ;
@@ -26,7 +26,7 @@ p /* ici c'est le texte*/
 	background-image: linear-gradient(to top left,purple,red,yellow);
 	width: 25% ;
 	height: 15% ;
-	text-color: white ;
+	text-transform: capitalize ; 
 	-moz-transition-duration:5s ;
 	-moz-transition-property:background-image, widht,height ;
 
