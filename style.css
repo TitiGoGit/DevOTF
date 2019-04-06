@@ -39,6 +39,22 @@ p /* ici c'est le texte*/
 	border-radius: 45px;
 	
 }
+
+.titre /* ici c'est les titres */
+{
+	color: silver ;
+
+}
+
+#present /*ici le texte de presentation*/
+{
+	color: silver ;
+}
+
+#touche
+{
+	color: silver ;
+}
 /* ------------------------------------------------------------------------------*/
 
 body
