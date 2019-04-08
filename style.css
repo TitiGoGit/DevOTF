@@ -18,7 +18,7 @@ h1 /* ici les gros titres */
 	text-align: center ;
 	color: white ;
 	font-family: 'gondola_sd_-_swashregular';
-	text-shadow: 2px 2px 5px red;
+	text-shadow: 2px 2px 5px blue;
 
 }
 
@@ -26,7 +26,7 @@ h1 /* ici les gros titres */
 {
 	/*color: red ;*/
 	font-family: ariale;
-	text-shadow: 2px 2px 2px red;
+	text-shadow: 2px 2px 5px blue;
 }
 
 
@@ -49,7 +49,7 @@ p /* ici c'est le texte*/
 }
 .button:hover /* ici les boutons du menu trandformé*/
 {
-	background-image: linear-gradient(to top left,black,red);
+	background-image: linear-gradient(to top left,black,rgb( 19, 219, 243) );
 	width: 20% ;
 	height: 15% ;
 	text-transform: capitalize ; 
@@ -59,7 +59,7 @@ p /* ici c'est le texte*/
 }
 a
 {
-	color: white;
+	color: rgb( 19, 219, 243);
 }
 
 #bloc2 /* ici le paragraphe de la présentation*/
@@ -67,7 +67,7 @@ a
 	background-color: ;
 	border: 0.5em ridge silver ;
 	border-radius: 45px;
-	box-shadow: 2px 2px 2px white;
+	box-shadow: 2px 2px 2px blue;
 	
 }
 
@@ -75,7 +75,7 @@ a
 #present /*ici le texte de presentation*/
 {
 	color: white ;
-	text-shadow: 2px 2px 2px red;
+	text-shadow: 2px 2px 2px blue;
 }
 
 /* ------------------------------------------------------------------------------*/
@@ -101,7 +101,7 @@ body
 a:hover
 {
 	font-weight: bold; 
-	color: white;
+	color: red;
 }
 
 #page {
