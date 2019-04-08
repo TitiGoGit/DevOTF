@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'mutlu_ornamental';
-    src: url('police/Mutlu__Ornamental-webfont.eot');
-    src: url('police/Mutlu__Ornamental-webfont.eot?#iefix') format('embedded-opentype'),
-         url('police/Mutlu__Ornamental-webfont.woff2') format('woff2'),
-         url('police/Mutlu__Ornamental-webfont.woff') format('woff'),
-         url('police/Mutlu__Ornamental-webfont.ttf') format('truetype'),
-         url('police/Mutlu__Ornamental-webfont.svg#mutlu_ornamental') format('svg');
+    font-family: 'gondola_sd_-_swashregular';
+    src: url('police/gondolasd-sw/Gondola_SD-Swash-webfont.eot');
+    src: url('police/gondolasd-sw/Gondola_SD-Swash-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/gondolasd-sw/Gondola_SD-Swash-webfont.woff2') format('woff2'),
+         url('police/gondolasd-sw/Gondola_SD-Swash-webfont.woff') format('woff'),
+         url('police/gondolasd-sw/Gondola_SD-Swash-webfont.ttf') format('truetype'),
+         url('police/gondolasd-sw/Gondola_SD-Swash-webfont.svg#gondola_sd_-_swashregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -16,22 +16,31 @@
 h1 /* ici les gros titres */
 {
 	text-align: center ;
-	text-color: red ;
-	font-family: 'mutlu_ornamental';
+	color: white ;
+	font-family: 'gondola_sd_-_swashregular';
+	text-shadow: 2px 2px 5px red;
 
+}
+
+.titre /* ici c'est les titres */
+{
+	/*color: red ;*/
+	font-family: ariale;
+	text-shadow: 2px 2px 2px red;
 }
 
 
 p /* ici c'est le texte*/
 {
 	text-align: center ;
+	color: white ;
 
 	
 }
 
 .button /* ici c'est les boutons du menu*/
 {
-	background-image: linear-gradient(to top right,black,grey,silver,white) ;
+	background-image: linear-gradient(to top right,black,blue) ;
 	border-radius:15px ;
 	width: 13% ;
 	height: 6% ;
@@ -40,7 +49,7 @@ p /* ici c'est le texte*/
 }
 .button:hover /* ici les boutons du menu trandformé*/
 {
-	background-image: linear-gradient(to top left,purple,red);
+	background-image: linear-gradient(to top left,black,red);
 	width: 20% ;
 	height: 15% ;
 	text-transform: capitalize ; 
@@ -48,40 +57,36 @@ p /* ici c'est le texte*/
 	-moz-transition-property:background-image, widht,height ;
 
 }
+a
+{
+	color: white;
+}
 
 #bloc2 /* ici le paragraphe de la présentation*/
 {
 	background-color: ;
 	border: 0.5em ridge silver ;
 	border-radius: 45px;
+	box-shadow: 2px 2px 2px white;
 	
 }
 
-.titre /* ici c'est les titres */
-{
-	color: silver ;
-	font-family: mutlu_ornamental;
-
-}
 
 #present /*ici le texte de presentation*/
 {
-	color: silver ;
+	color: white ;
+	text-shadow: 2px 2px 2px red;
 }
 
-#touche
-{
-	color: silver ;
-}
 /* ------------------------------------------------------------------------------*/
 
 body
 
 {
     	background-image:linear-gradient(to left,rgba(118, 108, 106,0), rgba(65, 61, 60)),
-	url("image/beam.jpeg");
+	url("image/lazB.jpg");
 	background-position: center;
-	background-size: contain, 40%;
+	background-size: contain, 100%;
 	
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -95,7 +100,8 @@ body
 
 a:hover
 {
-	font-weight: bold; color: white;
+	font-weight: bold; 
+	color: white;
 }
 
 #page {
@@ -113,7 +119,7 @@ a:hover
 
 #bloc1 {
 	background-color: ;
-	font-size: 3em;
+	font-size: 2.5em;
 	color: blue;
 
 }

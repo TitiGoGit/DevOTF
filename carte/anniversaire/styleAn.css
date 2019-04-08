@@ -1,0 +1,112 @@
+body
+{
+  background-image: url(image/coffret-cadeau.png);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: black;
+
+}
+#ecran
+
+{
+  
+  display: flex;
+  flex-direction: rew;
+  width: 100%
+
+}
+
+
+#calgauche
+{
+  width: 30%;
+  background-color: ;
+}
+
+
+
+#page
+{
+  display: flex;
+  flex-direction: column;
+
+}
+
+   #pmcol
+{
+  width: 100%;
+  background-color: white;
+  position: center;
+  border: 8px solid red;
+  border-radius: 12px;
+  box-shadow: 10px 6px 6px grey;
+}
+
+#dmcol
+{
+  
+  border: 7px solid red;
+  border-radius: 12px;
+  box-shadow: 10px 6px 6px grey;
+  background-color: white;
+}
+
+#ptmo
+{
+  
+  
+}
+   h1
+{
+  text-align: center;
+  color: red;
+}
+	h2
+{
+  text-align: center;
+  color: red;
+}
+
+{
+  height: 25%;
+}
+
+  .message
+{
+  width: 100%;
+  background-color:white;
+  border: 7px solid red;
+  border-radius: 12px;
+  box-shadow: 10px 6px 6px grey;
+}
+
+   p
+{
+  color:red;
+  text-align: center;
+
+}
+
+
+#caldroite
+{
+  width: 30%;
+  background-color: ;
+}
+
+#trcal1
+
+{
+  height: 30%;
+}
+#trcal2
+{
+  height: 15%:
+}
+#trcal3
+{
+  height: 15%;
+}
+
+
