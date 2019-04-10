@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: 'gondola_sd_-_swashregular';
     src: url('police/gondolasd-sw/Gondola_SD-Swash-webfont.eot');
@@ -21,6 +23,13 @@ h1 /* ici les gros titres */
 	text-shadow: 2px 2px 5px blue;
 
 }
+h2
+{
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 5px blue;
+	
+}
 
 .titre /* ici c'est les titres */
 {
@@ -38,51 +47,36 @@ p /* ici c'est le texte*/
 	
 }
 
-.button /* ici c'est les boutons du menu*/
-{
+.button /* ici c'est les boutons du menu*/{
 	background-image: linear-gradient(to top right,black,blue) ;
 	border-radius:15px ;
 	width: 13% ;
-	height: 6% ;
-	
-	 
-}
-.button:hover /* ici les boutons du menu trandformé*/
-{
+	height: 6% ;}
+
+.button:hover /* ici les boutons du menu transformé*/{
 	background-image: linear-gradient(to top left,black,rgb( 19, 219, 243) );
 	width: 20% ;
 	height: 15% ;
-	text-transform: capitalize ; 
 	-moz-transition-duration:5s ;
-	-moz-transition-property:background-image, widht,height ;
+	-moz-transition-property:background-image, widht,height ;}
+a{
+	color: rgb( 19, 219, 243);}
 
-}
-a
-{
-	color: rgb( 19, 219, 243);
-}
-
-#bloc2 /* ici le paragraphe de la présentation*/
-{
+#bloc2 /* ici le paragraphe de la présentation*/{
 	background-color: ;
 	border: 0.5em ridge silver ;
 	border-radius: 45px;
-	box-shadow: 2px 2px 2px blue;
-	
-}
+	box-shadow: 2px 2px 5px blue;
+	min-width: 100%;}
 
 
-#present /*ici le texte de presentation*/
-{
+#present /*ici le texte de presentation*/{
 	color: white ;
-	text-shadow: 2px 2px 2px blue;
-}
+	text-shadow: 2px 2px 2px blue;}
 
 /* ------------------------------------------------------------------------------*/
 
-body
-
-{
+body{
     	background-image:linear-gradient(to left,rgba(118, 108, 106,0), rgba(65, 61, 60)),
 	url("image/lazB.jpg");
 	background-position: center;
@@ -90,78 +84,100 @@ body
 	
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	
-	
-
     /* Obligatoire si on veut "voir" le dégradé */
     	width: 100%;
-    	height: 100%;
-}
+    	height: 100%;}
 
-a:hover
-{
+a:hover{
 	font-weight: bold; 
-	color: red;
-}
+	color: red;}
 
 #page {
 	display: flex;
-	flex-direction: rew;
-
-}
-
-
-
-#site
-{
-	width: 70%;
-}
+	flex-direction: column;
+	align-items: center;
+	margin: 10%;}
 
 #bloc1 {
 	background-color: ;
 	font-size: 2.5em;
-	color: blue;
-
-}
+	color: blue;}
 
 #bloc3 {
 	background-color: ;
-}
+	min-width: 100%;}
 #bloc4 {
 
-	background-color: ;
-}
+	background-color: ;}
 
-.clavier1
-{
+.clavier1{
 	display:flex;
 	flex-direction: rew;
+	min-width: 70%;
 	justify-content: space-around;
+	background-color: ;}
+
+.space{
+	height: 5%;}
+
+li{
+	color: red ;}
+#menu{
+	min-width: 100%;
+	background-color: ; }
+/* ----------------------------MEDIA-----------------------------------------*/
+
+@media screen (max-width: 900px){
+
+#page{
+	margin:5%;}
+#bloc1 {
+	width: auto;
+	font-size: 1em;}
+#bloc2 /* ici le paragraphe de la présentation*/{
+	width: auto;}
+
+#bloc3 {
+	width: auto;}
+
+#bloc4 {
+	width: auto;}
+.clavier1{
+	display:flex;
+	flex-direction: column;
+	margin: 4%;
+}
 }
 
-#calgauche
-{
-	width: 15%;
-}
-#caldroite
-{
-	width: 15%;
-}
 
-.space
-{
-	height: 7%;
-}
 
-.space2
-{
-	height: 15%;
-}
-li
-{
-	color: red ;
-}
 
+/*---------------------------------PORTABLE -------------------------*/
+@media max-device-width: 480px{
+
+#page{
+	margin:4%;}
+body{
+    	background-image:linear-gradient(to left,rgba(118, 108, 106,0), rgba(65, 61, 60),rgb( 19, 219, 243));	
+    /* Obligatoire si on veut "voir" le dégradé */
+    	width: 100%;
+    	height: 100%;}
+#bloc1 {
+	width: auto;
+	font-size: 0.5em;}
+#bloc2 /* ici le paragraphe de la présentation*/{
+	width: auto;	}
+
+#bloc3 {
+	width: auto;
+	background-color:red;}
+#bloc4 {
+	width: auto;}
+#menu{
+ flex-direction: rew;}
+.clavier1{
+	flex-direction: column;}
+}
 
 
 
