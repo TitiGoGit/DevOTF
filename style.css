@@ -181,7 +181,20 @@ a{
 
 }
 
-
+@media screen and (max-width: 600px)and (orientation: landscape) {
+	body{
+	
+    	background-image:linear-gradient(to left,rgba(118, 108, 106,0), rgba(65, 61, 60)),
+	url("image/lazB.jpg");
+	background-position: center;
+	background-size: contain, 100%;
+	
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    /* Obligatoire si on veut "voir" le dégradé */
+    	width: 100%;
+    	height: 100%;}
+}
 
 
 

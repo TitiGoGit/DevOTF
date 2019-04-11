@@ -124,7 +124,7 @@ aside{
 }
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 480px){
 p{
 	font-size: small; text-align: center; color: rgb(40,81,77); font-family: '2dumbregular';}
 aside{
