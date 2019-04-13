@@ -20,7 +20,7 @@ body
     background-color: rgb(233,233,233);
 }
 
-section
+#section
 {
     display: flex;
     flex-direction: column;
@@ -31,10 +31,10 @@ section
 
 
 
-aside
+#aside
 {
-    height: 700px;
-    width: 300px;
+    height: 600px;
+    width: 150px;
     
     background: url(lisere.png) no-repeat;
     border: 3px inset rgb(233,233,233); 
@@ -90,21 +90,23 @@ p
     height: 100%;
 }
 
-.element:nth-child(1){}
+.element:nth-child(1)
+{
+    
+     
+}
 
-.element:nth-child(2){}
+.element:nth-child(2)
+{
+   
+        
+}
 
-.element:nth-child(3){}
-
-nav{
-	margin: 10%;}
-
-
-nav ul{
-	display:flex;
-        flex-direction: rew;
-	justify-content: space-around;
-    }
+.element:nth-child(3)
+{
+    
+       
+}
 
 
 
@@ -116,7 +118,7 @@ nav ul{
 
 @media screen and (max-width: 1154px){
 
-aside{
+#aside{
 	display: none;}
 
 }
@@ -125,12 +127,12 @@ aside{
 @media screen and (max-width: 480px){
 p{
 	font-size: small; text-align: center; color: rgb(40,81,77); font-family: '2dumbregular';}
-aside{
+#aside{
 	display: none;}
 #conteneur{
     flex-direction:column;
     justify-content: space-around;}
-header{
+#header{
 	display:flex;
 	flex-direction:column;
 	justify-content: center;}  
@@ -138,8 +140,6 @@ header{
 	 border: 5px  inset white; border-radius: 10px;}   
 .element{
 	min-width: 90%;} 
-nav ul{
-	flex-direction: column;}
 
 }
 
