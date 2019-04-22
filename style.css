@@ -23,17 +23,13 @@ h1 /* ici les gros titres */
 	text-shadow: 2px 2px 5px blue;
 
 }
-h2
-{
+h2{
 	text-align: center;
 	color: white;
 	text-shadow: 2px 2px 5px blue;
 	font-family: 'gondola_sd_-_swashregular';
 	text-align: center ;
 	display: none;}
-
-	
-}
 
 h3{
 	text-align: center;
@@ -59,8 +55,8 @@ p /* ici c'est le texte*/{
 
 .button:hover /* ici les boutons du menu transformé*/{
 	background-image: linear-gradient(to top left,black,rgb( 19, 219, 243) );
-	width: 20% ;
-	height: 15% ;
+	/*width: 20% ;
+	height: 15% ;*/
 	-moz-transition-duration:5s ;
 	-moz-transition-property:background-image, widht,height ;}
 a{
