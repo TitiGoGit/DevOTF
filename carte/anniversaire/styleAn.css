@@ -1,112 +1,36 @@
-body
-{
-  background-image: url(image/coffret-cadeau.png);
+body{
+  background-image: url(image/cado1.png);
   background-position: center;
   background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-color: black;
+  background-repeat: no-repeat;}
 
-}
-#ecran
+.img2{background-image: url(image/cadeauexplo.png);}
 
-{
-  
-  display: flex;
-  flex-direction: rew;
-  width: 100%
-
-}
-
-
-#calgauche
-{
-  width: 30%;
-  background-color: ;
-}
-
-
-
-#page
-{
+#bkgr{
   display: flex;
   flex-direction: column;
+  align-items: center;}
 
-}
-
-   #pmcol
-{
-  width: 100%;
-  background-color: white;
-  position: center;
+.message{
+  margin:4%;
+  width: 75%;
+  background-color:white;
   border: 8px solid red;
   border-radius: 12px;
-  box-shadow: 10px 6px 6px grey;
-}
+  box-shadow: 10px 6px 6px grey;}
 
-#dmcol
-{
-  
-  border: 7px solid red;
-  border-radius: 12px;
-  box-shadow: 10px 6px 6px grey;
-  background-color: white;
-}
+h1{
+  text-align: center;
+  color: red;}
 
-#ptmo
-{
-  
-  
-}
-   h1
-{
+h2{
   text-align: center;
   color: red;
-}
-	h2
-{
-  text-align: center;
-  color: red;
-}
+  height:;}
 
-{
-  height: 25%;
-}
-
-  .message
-{
-  width: 100%;
-  background-color:white;
-  border: 7px solid red;
-  border-radius: 12px;
-  box-shadow: 10px 6px 6px grey;
-}
-
-   p
-{
+p{
   color:red;
-  text-align: center;
+  text-align: center;}
 
-}
-
-
-#caldroite
-{
-  width: 30%;
-  background-color: ;
-}
-
-#trcal1
-
-{
-  height: 30%;
-}
-#trcal2
-{
-  height: 15%:
-}
-#trcal3
-{
-  height: 15%;
-}
 
 
